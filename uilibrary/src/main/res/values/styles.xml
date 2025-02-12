@@ -1,0 +1,17 @@
+<resources>
+    <!-- Primary Button Style -->
+    <style name="PrimaryButtonStyle" parent="Widget.AppCompat.Button">
+        <item name="android:background">@color/primary_button_bg</item>
+        <item name="android:textColor">@color/primary_button_text</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:padding">12dp</item>
+    </style>
+
+    <!-- Secondary Button Style -->
+    <style name="SecondaryButtonStyle" parent="Widget.AppCompat.Button">
+        <item name="android:background">@color/secondary_button_bg</item>
+        <item name="android:textColor">@color/secondary_button_text</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:padding">12dp</item>
+    </style>
+</resources>

@@ -1,0 +1,21 @@
+<resources>
+    <declare-styleable name="CustomButton">
+        <attr name="size" format="enum">
+            <enum name="S" value="0" />
+            <enum name="L" value="1" />
+        </attr>
+        <attr name="style" format="enum">
+            <enum name="PRIMARY" value="0" />
+            <enum name="SECONDARY" value="1" />
+            <enum name="TERTIARY" value="2" />
+        </attr>
+        <attr name="state" format="enum">
+            <enum name="DEFAULT" value="0" />
+            <enum name="HOVER" value="1" />
+            <enum name="PRESSED" value="2" />
+            <enum name="DISABLED" value="3" />
+            <enum name="FOCUS" value="4" />
+        </attr>
+        <attr name="imageUrl" format="string" />
+    </declare-styleable>
+</resources>
